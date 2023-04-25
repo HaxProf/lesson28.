@@ -1,0 +1,32 @@
+@import url(null.css);
+
+.wrapper {
+  height: 100%;
+  padding: 50px;
+  background-color: darkred;
+}
+.flexbox {
+  margin: 0 auto;
+  border: 10px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: pink;
+  height: 500px;
+  flex-wrap: wrap;
+}
+.flexbox__item {
+  border: 5px solid green;
+  width: 200px;
+  height: 200px;
+  flex: 1 0 auto;
+  display: flex;
+}
+.flexbox__item-content {
+  flex: 1 0 auto;
+  background-color: blue;
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 80px;
+}
